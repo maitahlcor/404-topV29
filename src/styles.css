@@ -1,0 +1,53 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: sapace;
+    src: url(SpaceMono-Regular.ttf);
+  }
+
+.titulo{
+    font-weight: 500;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: auto;
+    font-size: 24px;
+    font-family: sapace;
+  }
+  .img{
+    width:100%;
+    max-width:900px;
+}
+  .texto{
+    font-weight: 500;
+    position: relative;
+    float: right;
+    width: 45%;
+    height: auto;
+    font-size: 24px;
+    font-family: sapace;
+  }
+  #boton{
+    padding: 20px;
+    background-color: rgb(44, 42, 42);
+    font-family: sapace;
+    color: white;
+  }
+  .innertext{ 
+    font-size: 18px;
+    font-family: sapace;
+    color:  #4F4F4F;
+  }
+  @media only screen and (min-width: 375px) {
+    /* For desktop: */
+    .titulo {width: 50%;}
+    .img {width: 50%;}
+    .texto {width: 50%;}
+  }
+  @media only screen and (min-width: 1440px) {
+    /* For desktop: */
+    .titulo {width: 50%;}
+    .img {width: 50%;}
+    .texto {width: 50%;}
+  }
